@@ -1,0 +1,204 @@
+/*Bootstrap Custom Styles*/
+
+.card-movies .card-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.navbar .btn {
+	border: 1px solid white;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+}
+
+.navbar .btn:hover {
+	background-color: white;
+	color: rgb(0,35,70);
+}
+
+.navbar .nav-link {
+	color: white;
+	transition: 0.8s;
+}
+
+.navbar .nav-link:hover {
+	color: lightblue;
+}
+
+.navbar .navbar-toggler:hover {
+	background-color: white;
+}
+
+.navbar .navbar-toggler {
+	background-color: rgb(0,35,70); 
+	border: 1px solid white;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.navbar .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28400, 400, 400, 400%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar .navbar-toggler-icon:hover {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 35, 70%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.row {
+	width: 100%;
+	margin: 0px;
+}
+
+/*My Styles*/
+
+.bg-darkblue {
+	background-color: rgb(0,35,70);
+}
+
+.bg-gradient-darkblue {
+	background-color: rgba(83,184,152,1);
+	background-image: linear-gradient(
+		135deg,
+		rgba(0,0,0,0.91),
+		rgba(7,31,51,0.97) 79%
+	);
+	background-image: linear-gradient(
+		135deg,
+		rgba(0,0,0,0.92),
+		rgba(0,100,160,1)
+	);
+}
+
+.card-custom .fix {
+	object-fit: cover;
+}
+
+.card-movies .card-custom {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.card-movies .card-img-movie {
+	border-radius: 10px 10px 10px 10px;
+	width: 15.2rem;
+	height: 20rem;
+}
+
+.card-movies .text-relative {
+	position: relative;
+	top: 50%;
+}
+
+.card-movies .scrolling {
+	display: flex;
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.card-movies .scrolling::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+.card-movies .scrolling::-webkit-scrollbar-thumb {
+	background: rgb(0,120,150);
+	border-radius: 3px;
+}
+
+.card-movies .horizontal-scroll {
+	display: flex;
+}
+
+.card-movies .items {
+	display: flex;
+	width: 100%;
+	gap: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.card-movies .navbar-section {
+	justify-content: center;
+}
+
+.container-xl {
+	padding: 0px;
+}
+
+.footer-nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer {
+	width: 300px;
+}
+
+.join {
+	background-image: linear-gradient(
+		10deg,
+		rgba(0,0,50,0.90),
+		rgba(0,0,50,0.90)
+	), url(../img/picture.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.join .btn-login:focus {
+	background-color: white;
+	color: rgb(0,35,70);
+}
+
+.promo .btn-login:hover {
+	background-color: white;
+	color: rgb(0,35,70);
+}
+
+.logo {
+	width: 100%;
+	height: 20px;
+}
+
+.publicity .banner-img-1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.promo .card {
+	width: 25rem;
+	height: 16rem;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(0,0,0,0.0);
+	background-image: linear-gradient(
+		120deg,
+		rgba(0,35,70,1),
+		rgba(0,35,70,1)
+	);
+}
+
+.navbar .toggler {
+	color: white;
+}
+
+.navbar .toggler:hover {
+	color: rgb(0,35,70);
+}
+
+.welcome {
+	background-image: linear-gradient(
+		90deg,
+		rgba(0,50,100,1),
+		rgba(0,0,0,0.0)
+	), url(../img/Welcome.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+/*Media Querys*/

@@ -17,8 +17,8 @@ function spawnCards (characters){
       <div class="col-md-6 col-12" id="card${i}">
         <div class="card mb-3 card-dark">
           <div class="row limit">
-            <div class="col-md-4 flex-shrink-0">
-              <img src="${spawn.image}" class="rounded-start img-flex" />
+            <div class="col-md-4 d-flex justify-content-center flex-shrink-0">
+              <img class="card-img" src="${spawn.image}" class="rounded-start img-flex" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
